@@ -1,31 +1,107 @@
-/* RESET */
+/* =========================
+   RESET
+========================= */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* BODY */
+/* =========================
+   BODY
+========================= */
 body {
-  font-family: Arial, sans-serif;
-  background: yellow;
+  font-family: 'Poppins', Arial, sans-serif;
+  background: #fffbe6; /* light yellow */
+  color: #222;
 }
 
-/* HERO SECTION */
-.hero {
-  text-align: center;
-  padding: 60px 20px;
-  background: #f8f8f8;
-}
-
-/* BUTTON */
-.btn {
+/* =========================
+   HEADER / LOGO
+========================= */
+header {
   background: #e31e25;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 6px;
-  text-decoration: none;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+header img {
+  height: 70px;
+}
+
+/* =========================
+   HERO SECTION
+========================= */
+.hero {
+  padding: 60px 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.hero h1 {
+  font-size: 32px;
+  color: #e31e25;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* =========================
+   BUTTON
+========================= */
+.btn {
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 25px;
+  background: #25d366; /* WhatsApp green */
+  color: white;
+  padding: 14px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #1ebe5d;
+}
+
+/* =========================
+   SECTION
+========================= */
+.section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  color: #e31e25;
+  margin-bottom: 15px;
+}
+
+/* =========================
+   FOOTER / ADDRESS
+========================= */
+footer {
+  background: #222;
+  color: #fff;
+  padding: 25px 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 24px;
+  }
+
+  .btn {
+    font-size: 15px;
+    padding: 12px 18px;
+  }
 }

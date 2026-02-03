@@ -1,10 +1,14 @@
-body {
-  background: yellow !important;
-}
-body {
+/* RESET */
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
   font-family: Arial, sans-serif;
-  background: #ffffff;
+  background: yellow;
 }
 
 /* HERO SECTION */
@@ -14,47 +18,14 @@ body {
   background: #f8f8f8;
 }
 
-.logo {
-  width: 120px;
-  margin-bottom: 15px;
-}
-
-.hero h1 {
-  font-size: 36px;
-  margin: 10px 0;
-}
-
-.hero p {
-  font-size: 18px;
-  color: #555;
-}
-
-/* WHATSAPP BUTTON */
-.whatsapp-btn {
-  display: inline-block;
-  margin-top: 25px;
-  background: #25D366;
+/* BUTTON */
+.btn {
+  background: #e31e25;
   color: white;
-  padding: 15px 30px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
   text-decoration: none;
-  font-size: 18px;
-  border-radius: 8px;
-}
-
-/* ADDRESS */
-.address {
-  padding: 40px 20px;
-  text-align: center;
-}
-
-.address h2 {
-  margin-bottom: 10px;
-}
-
-/* FOOTER */
-footer {
-  background: #222;
-  color: white;
-  text-align: center;
-  padding: 15px;
+  display: inline-block;
+  margin-top: 20px;
 }
